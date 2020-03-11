@@ -1,7 +1,7 @@
 # Proiect_criptare-decriptare-imagine-si-template-matching
 Encryption:
 ![what-is-encryption](https://user-images.githubusercontent.com/48885998/76467525-7a1a4980-63f2-11ea-9153-a1147d9b1282.png)
-1.Pixel permutation
+1.Pixel permutation                                                        
 Before:
 ![peppers](https://user-images.githubusercontent.com/48885998/76458797-c3af6800-63e3-11ea-815f-0cdb4acdf0f7.png)
 After:

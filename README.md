@@ -6,12 +6,12 @@ Before:
 ![peppers](https://user-images.githubusercontent.com/48885998/76458797-c3af6800-63e3-11ea-815f-0cdb4acdf0f7.png)
 After:
 ![49013306_603160036780183_6947998281553149952_n](https://user-images.githubusercontent.com/48885998/76466424-57873100-63f0-11ea-8c8d-5938ba008bd5.jpg)
-First step is reading the image (file) as an 1-dimensional array. Next is pixel permutation in a pseudo-random pattern (with an Xorshift32 function with a secret seed, that return each time a different number). 
+First step is reading the image (file) as an 1-dimensional array. Next is pixel permutation in a pseudo-random pattern (with an Xorshift32 function with a secret seed, that returns each time a different number). 
 
 2. Encryption
 After:
 ![criptat](https://user-images.githubusercontent.com/48885998/76466871-1b080500-63f1-11ea-9fd4-dd403da1ae10.png)
-We use values obtained from Xorshift32 again for the encryption part, each pixel receives a new value of the pseudo-random number Xor its old value Xor secret key.
+We use values obtained from Xorshift32 again for the encryption part, each pixel receives a new value of the pseudo-random number ^(Xor) its old value ^(Xor) secret key.
 
 3.Decryption:
 We repeat the same steps in reverse. As for the Xor operation, a number Xor itself is 0, so we can obtain the old values of the pixels, and then re-order them back.
